@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3521002749062961404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3521002749062961402}
+  - component: {fileID: 3521002749062961405}
+  m_Layer: 0
+  m_Name: FrogPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3521002749062961402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521002749062961404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5425483, y: -10.724413, z: 7.962922}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3521002749062961405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521002749062961404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf701bc917e9ab4a98b6ce9e0a471e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frogPrefab: {fileID: 7132489837780195035, guid: 134dcb255a9f5a942927c3fc9899fe8b,
+    type: 3}
+  levels:
+  - frogPlacements:
+    - id: 4
+      rotation: 90
+      color: 0
+    - id: 5
+      rotation: 180
+      color: 1
+    - id: 9
+      rotation: 180
+      color: 2
+  - frogPlacements:
+    - id: 0
+      rotation: 90
+      color: 0
+    - id: 1
+      rotation: 180
+      color: 1
+    - id: 19
+      rotation: 180
+      color: 2
+  materials:
+  - {fileID: 2100000, guid: c3ffb5e2d745c334bb1e6bf03e35d485, type: 2}
+  - {fileID: 2100000, guid: 2525371bb7aeb9c4db0478017b1b2c57, type: 2}
+  - {fileID: 2100000, guid: a7a75c50cb1e44f419a99cadc82776a8, type: 2}
+  - {fileID: 2100000, guid: 6dbe4c46000bada4ab8141d3d4cd4c05, type: 2}
+  - {fileID: 2100000, guid: e3d8d8706528325479bcf301b8e1a14b, type: 2}
+  currentLevel: 0
+  FrogCount: 0
